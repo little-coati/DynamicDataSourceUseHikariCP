@@ -6,7 +6,7 @@ package com.example.dynamicHikaricp.service;
  */
 public interface TestService {
 
-    Integer test1();
+    Integer testTd();
 
-    Integer test2();
+    Integer testMysql();
 }

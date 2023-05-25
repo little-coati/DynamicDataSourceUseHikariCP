@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 public interface TestMapper extends BaseMapper {
 
-    Integer test1();
+    Integer testTd();
 
-    Integer test2();
+    Integer testMysql();
 }

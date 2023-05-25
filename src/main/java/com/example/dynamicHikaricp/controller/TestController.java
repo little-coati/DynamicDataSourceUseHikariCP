@@ -17,13 +17,13 @@ public class TestController {
 
     private final TestService testService;
 
-    @GetMapping("/test1")
-    public Integer test1() {
-        return testService.test1();
+    @GetMapping("/testTd")
+    public Integer testTd() {
+        return testService.testTd();
     }
 
-    @GetMapping("/test2")
+    @GetMapping("/testMysql")
     public Integer test2() {
-        return testService.test2();
+        return testService.testMysql();
     }
 }

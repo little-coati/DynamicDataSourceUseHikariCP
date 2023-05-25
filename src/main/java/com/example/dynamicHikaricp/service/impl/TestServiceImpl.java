@@ -18,12 +18,12 @@ public class TestServiceImpl implements TestService {
 
     @DS("td")
     @Override
-    public Integer test1() {
-        return testMapper.test1();
+    public Integer testTd() {
+        return testMapper.testTd();
     }
 
     @Override
-    public Integer test2() {
-        return testMapper.test2();
+    public Integer testMysql() {
+        return testMapper.testMysql();
     }
 }
